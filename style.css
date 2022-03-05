@@ -1,0 +1,95 @@
+body {
+	background-color: #EEEEEE;
+	text-align: center;
+	color:  #222222;
+	font-size: 16px;
+	font-family: 'Libre Baskerville', serif ;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 32px;
+	color: #0E7AA9;
+	font-family:  'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+h2 {
+	color: #8E8358;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color:  #0E7AA9;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #222222;
+}
+
+.list-horizontal li {
+	font-size: 60px;
+}
+
+.container {
+	width:  700px;
+	margin: 10px auto;"
+}
+
+.card-white {
+	background-color: #EEEEEE;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(34, 34, 34, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+}
+
+.img-circle {
+	border-radius: 72px;
+	width: 144px;
+	height: 144px;
+	
+}
+
+.btn-blue {
+	background-color: #0E7AA9;
+	color:  #EEEEEE;
+	padding: 15px 20px;
+	border-radius: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+	background-color: #222222;
+	color: #EEEEEE;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+#intro {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
